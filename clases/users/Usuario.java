@@ -1,3 +1,4 @@
+package users;
 public class Usuario{
 	protected static long int idUsuario=0;
 	protected String username;

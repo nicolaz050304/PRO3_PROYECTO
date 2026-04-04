@@ -1,0 +1,14 @@
+package users;
+import java.util.ArrayList;
+public class Cliente extends Usuario{
+	private String nombre;
+	private String telefono;
+	private String dni;
+	private ArrayList<Reservas> reservas;//lista de reservas, aqui estan las pasadas y nuevas tambien xd
+	public Cliente(String nombre,String telefono,String dni){
+		this.nombre=nombre;
+		this.telefono=telefono;
+		this.dni=dni;
+		this.reservas= new ArrayList<>();
+	}
+}
