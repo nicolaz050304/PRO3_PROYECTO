@@ -1,3 +1,4 @@
+package ENUM;
 enum{
 	CONFIRMADA,
 	PENDIENTE,

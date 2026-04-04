@@ -5,7 +5,9 @@ public class Cliente extends Usuario{
 	private String telefono;
 	private String dni;
 	private ArrayList<Reservas> reservas;//lista de reservas, aqui estan las pasadas y nuevas tambien xd
-	public Cliente(String nombre,String telefono,String dni){
+	public Cliente(String username,String correo,String contraseña,
+					String nombre,String telefono,String dni){
+		super(username,correo,contraseña);
 		this.nombre=nombre;
 		this.telefono=telefono;
 		this.dni=dni;
