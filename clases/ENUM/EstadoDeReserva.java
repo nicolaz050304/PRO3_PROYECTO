@@ -1,5 +1,6 @@
 package ENUM;
-enum{
+
+public enum Estado {
 	CONFIRMADA,
 	PENDIENTE,
 	CANCELADA,

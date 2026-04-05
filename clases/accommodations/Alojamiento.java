@@ -1,6 +1,6 @@
 package accomodations;
 
-import interfaceConsults.IConsultable;
+import interfaceConsults.*;
 
 public abstract class Alojamiento implements IConsultable{
 	protected int idAlojamiento;
