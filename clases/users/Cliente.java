@@ -4,10 +4,10 @@ import java.util.ArrayList;
 import interfaceConsults.*;
 
 public class Cliente extends Usuario{
-	private String nombre;
 	private String telefono;
 	private String dni;
 	private List<Reservas> reservas;//lista de reservas, aqui estan las pasadas y nuevas tambien xd
+	
 	public Cliente(String username,String correo,String contraseña,
 					String nombre,String telefono,String dni){
 		super(username,correo,contraseña);	

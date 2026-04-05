@@ -1,15 +1,17 @@
 package users;
 import interfaceConsults.*;
 
-public abstract class Usuario {
+public abstract class Usuario implements IConsultable {
 	private static long contadorId = 0;
 	protected long int idUsuario;
 	protected String username;
+	protected String nombreCompleto;
 	protected String correo;
 	protected String contraseña;
 	
-	public Usuario(String username,String correo,String contraseña){
+	public Usuario(String username,String nombreCompleto,String correo,String contraseña){
 		this.username=username;
+		this.nombreCompleto = nombreCompleto;
 		this.correo=correo;
 		this.contraseña=contraseña;
 		this.idUsuario = ++contadorId; 
