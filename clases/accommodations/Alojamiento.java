@@ -1,6 +1,6 @@
 package accomodations;
 
-import interfaceConsults.*;
+import interfaceConsults.IConsultable;
 
 public abstract class Alojamiento implements IConsultable{
 	protected int idAlojamiento;
@@ -24,5 +24,8 @@ public abstract class Alojamiento implements IConsultable{
 		this.disponibilidad = disponibilidad;
 	}
 	
-	
+	public void consultarDatos() {
+		
+		
+	}
 }

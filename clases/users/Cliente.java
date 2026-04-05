@@ -1,5 +1,8 @@
 package users;
 import java.util.ArrayList;
+
+import interfaceConsults.*;
+
 public class Cliente extends Usuario{
 	private String nombre;
 	private String telefono;

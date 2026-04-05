@@ -1,5 +1,5 @@
 package users;
-import interfaceConsults.*
+import interfaceConsults.*;
 
 public abstract class Usuario {
 	private static long contadorId = 0;
@@ -16,4 +16,13 @@ public abstract class Usuario {
 		//se añada dicho valor actual al idUsuario y luego se aumente
 		// ejm: usuario 1 => idUsuario = ++contadorID = 1;
 	}
+	
+	public void consultarDatos() {
+		
+		
+	}
+	
+	
+	
+	
 }
