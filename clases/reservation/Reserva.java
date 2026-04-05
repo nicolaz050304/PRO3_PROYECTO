@@ -1,6 +1,7 @@
 import package ENUM;
 import interfaceConsults.*;
 import java.util.Date;
+package reservation;
 
 public class Reserva {
 	private int idReserva;
