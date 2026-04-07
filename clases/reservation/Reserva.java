@@ -1,7 +1,9 @@
+package reservation;
 import package ENUM;
+import users.*;
+import accommodations.*;
 import interfaceConsults.*;
 import java.util.Date;
-package reservation;
 
 public class Reserva {
 	private int idReserva;
