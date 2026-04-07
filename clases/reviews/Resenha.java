@@ -6,7 +6,7 @@ import java.util.Date;
 
 public class Resenha {
 
-    // --- Atributos ---
+    // --- Atributos
     private int idResenha;
     private Cliente autor;
     private Alojamiento alojamiento;
