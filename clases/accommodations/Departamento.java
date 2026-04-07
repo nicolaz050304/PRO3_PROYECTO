@@ -1,6 +1,7 @@
 package accomodations;
 
 import interfaceConsults.*;
+import users.Anfitrion;
 
 
 public class Departamento extends Alojamiento {
@@ -8,11 +9,13 @@ public class Departamento extends Alojamiento {
 	private String nroDepartamento;
 	
 	public Departamento(int idAlojamiento, String nombre, String descripcion, String direccion,
-	double precioPorNoche, int capacidadMaxima, double calificacionPromedio, boolean disponibilidad,
-	int numPiso, String nroDepartamento) {
+	                    double precioPorNoche, int capacidadMaxima, double calificacionPromedio, boolean disponibilidad,
+	                    Anfitrion duenho, int numPiso, String nroDepartamento) {
 		super(idAlojamiento,nombre,descripcion,direccion,precioPorNoche,capacidadMaxima,calificacionPromedio,
-		disponibilidad);
+		disponibilidad,duenho);
 		this.numPiso = numPiso;
 		this.nroDepartamento =nroDepartamento;
 	}
+	@Override
+	public  void consultarDatos(){}
 }
