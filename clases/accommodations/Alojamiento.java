@@ -28,5 +28,7 @@ public abstract class Alojamiento implements IConsultable{
 		this.disponibilidad = disponibilidad;
 		this.duenho = duenho;
 	}
+
+
 	
 }
