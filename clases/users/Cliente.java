@@ -10,9 +10,9 @@ public class Cliente extends Usuario{
 	private String dni;
 	private List<Reserva> reservas;//lista de reservas, aqui estan las pasadas y nuevas tambien xd
 	
-	public Cliente(String username,String correo,String contraseña,
+	public Cliente(String username,String correo,String contraseĆ±a,
 					String nombre,String telefono,String dni){
-		super(username,correo,contraseña);	
+		super(username,correo,contraseĆ±a);	
 		this.nombre=nombre;
 		this.telefono=telefono;
 		this.dni=dni;
@@ -20,9 +20,12 @@ public class Cliente extends Usuario{
 	}
 	@override
 	public void consultarDatos(){}
+	
 	public void agendarReserva(Reserva reserva){}
+	public void cancelarReserva(int codReserva){}
 	public void mostrarReservas(String estado){}//Me ayuda para filtro o sino muestro todas
 	public void consultarReserva(int codReserva){}
 	public void agregarCalificacion(int codReserva){}
 	public void agregarResenhia(int codResenhia){}
+	
 }

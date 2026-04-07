@@ -10,7 +10,7 @@ public abstract class Alojamiento implements IConsultable{
 	protected String direccion;
 	protected double precioPorNoche;
 	protected int capacidadMaxima;
-	protected double calificacionPromedio; // Rango del 1-5, basado en reseñas
+	protected double calificacionPromedio; // Rango del 1-5, basado en reseĆ±as
 	protected boolean disponibilidad;
 	protected Propietario duenho;
 	
