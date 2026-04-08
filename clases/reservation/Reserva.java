@@ -10,7 +10,6 @@ public class Reserva {
     private Date fechaFin;
     private double montoTotal;
     private EstadoDeReserva estado;
-
     private Alojamiento alojamientoReservado;
     private Cliente cliente;
 
