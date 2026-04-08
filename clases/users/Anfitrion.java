@@ -24,4 +24,28 @@ public class Anfitrion extends Usuario {
 
 	@Override
 	public void consultarDatos() {}
+
+	public String getCuentaBancaria() {
+		return cuentaBancaria;
+	}
+
+	public void setCuentaBancaria(String cuentaBancaria) {
+		this.cuentaBancaria = cuentaBancaria;
+	}
+
+	public List<Alojamiento> getAlojamientos() {
+		return alojamientos;
+	}
+
+	public void setAlojamientos(List<Alojamiento> alojamientos) {
+		this.alojamientos = alojamientos;
+	}
+
+	public double getCalificacionPromedio() {
+		return calificacionPromedio;
+	}
+
+	public void setCalificacionPromedio(double calificacionPromedio) {
+		this.calificacionPromedio = calificacionPromedio;
+	}
 }

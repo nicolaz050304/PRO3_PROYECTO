@@ -1,6 +1,6 @@
 package reviews;
 
-import accomodations.Alojamiento;
+import accomodations.*;
 import users.Cliente;
 import java.util.Date;
 

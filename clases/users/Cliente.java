@@ -23,4 +23,28 @@ public class Cliente extends Usuario{
 	public void consultarReserva(int codReserva){}
 	public void agregarCalificacion(int codReserva){}
 	public void agregarResenhia(int codResenhia){}
+
+	public String getDni() {
+		return dni;
+	}
+
+	public void setDni(String dni) {
+		this.dni = dni;
+	}
+
+	public List<Reserva> getReservas() {
+		return reservas;
+	}
+
+	public void setReservas(List<Reserva> reservas) {
+		this.reservas = reservas;
+	}
+
+	public String getTelefono() {
+		return telefono;
+	}
+
+	public void setTelefono(String telefono) {
+		this.telefono = telefono;
+	}
 }
