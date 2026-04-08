@@ -1,5 +1,5 @@
 package interfaceConsults;
 
 public interface IConsultable {
-	void consultarDatos();
+    void consultarDatos();
 }

@@ -2,8 +2,7 @@ package users;
 import java.util.ArrayList;
 import java.util.List;
 
-import interfaceConsults.IConsultable;
-import reservation.Reserva;
+import reservation.*;
 
 public class Cliente extends Usuario{
 	private String telefono;
@@ -13,14 +12,13 @@ public class Cliente extends Usuario{
 	public Cliente(String username,String correo,String contrasenha,
 					String nombreCompleto,String telefono,String dni){
 		super(username,nombreCompleto,correo,contrasenha);
-		this.nombreCompleto=nombreCompleto;
 		this.telefono=telefono;
 		this.dni=dni;
 		this.reservas= new ArrayList<>();
 	}
 
-	@Override
-	public void consultarDatos(){}
+
+
 	
 	public void agendarReserva(Reserva reserva){}
 	public void cancelarReserva(int codReserva){}
@@ -28,5 +26,22 @@ public class Cliente extends Usuario{
 	public void consultarReserva(int codReserva){}
 	public void agregarCalificacion(int codReserva){}
 	public void agregarResenhia(int codResenhia){}
-	
+
+	public String getTelefono() {
+		return telefono;
+	}
+
+	public void setTelefono(String telefono) {
+		this.telefono = telefono;
+	}
+
+	public String getDni() {
+		return dni;
+	}
+
+	public void setDni(String dni) {
+		this.dni = dni;
+	}
+
+
 }

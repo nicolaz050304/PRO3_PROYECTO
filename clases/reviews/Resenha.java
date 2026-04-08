@@ -1,7 +1,7 @@
 package reviews;
 
 import users.Cliente;
-import accommodations.Alojamiento; 
+import accommodations.Alojamiento;
 import java.util.Date;
 
 public class Resenha {
@@ -70,9 +70,7 @@ public class Resenha {
 	}
 
     // --- Metodos -> solo estan declarados
-    public void editarResenha(String nuevoComentario, int nuevaCalificacion) {
-    }
+    public void editarResenha(String nuevoComentario, int nuevaCalificacion) {}
 
-    public void eliminarResenha() {
-    }
+    public void eliminarResenha() {}
 }
