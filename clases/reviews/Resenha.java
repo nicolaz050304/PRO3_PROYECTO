@@ -2,6 +2,7 @@ package reviews;
 
 import users.Cliente;
 import accommodations.Alojamiento;
+
 import java.util.Date;
 
 public class Resenha {
@@ -24,47 +25,53 @@ public class Resenha {
     }
 
     // --- Getters y Setters 
-    public int getIdResenha() { 
-		return idResenha; 
-	}
+    public int getIdResenha() {
+        return idResenha;
+    }
+
     public void setIdResenha(int idResenha) {
-		this.idResenha = idResenha; 
-	}
+        this.idResenha = idResenha;
+    }
 
-    public Cliente getAutor() { 
-	return autor; 
-	}
+    public Cliente getAutor() {
+        return autor;
+    }
+
     public void setAutor(Cliente autor) {
-		this.autor = autor; 
-	}
+        this.autor = autor;
+    }
 
-    public Alojamiento getAlojamiento() { 
-	return alojamiento; 
-	}
+    public Alojamiento getAlojamiento() {
+        return alojamiento;
+    }
+
     public void setAlojamiento(Alojamiento alojamiento) {
-		this.alojamiento = alojamiento; 
-	}
+        this.alojamiento = alojamiento;
+    }
 
-    public int getCalificacion() { 
-	return calificacion; 
-	}
+    public int getCalificacion() {
+        return calificacion;
+    }
+
     public void setCalificacion(int calificacion) {
-		this.calificacion = calificacion;
-	}
+        this.calificacion = calificacion;
+    }
 
     public String getComentario() {
-		return comentario; 
-	}
-    public void setComentario(String comentario) {
-		this.comentario = comentario; 
-	}
+        return comentario;
+    }
 
-    public Date getFechaPublicacion() { 
-		return fechaPublicacion;
-	}
+    public void setComentario(String comentario) {
+        this.comentario = comentario;
+    }
+
+    public Date getFechaPublicacion() {
+        return fechaPublicacion;
+    }
+
     public void setFechaPublicacion(Date fechaPublicacion) {
-		this.fechaPublicacion = fechaPublicacion;
-	}
+        this.fechaPublicacion = fechaPublicacion;
+    }
 
     // --- Metodos -> solo estan declarados
     public void editarResenha(String nuevoComentario, int nuevaCalificacion) {}
