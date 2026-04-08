@@ -18,4 +18,20 @@ public class Departamento extends Alojamiento {
 	}
 	@Override
 	public  void consultarDatos(){}
+
+	public int getNumPiso() {
+		return numPiso;
+	}
+
+	public void setNumPiso(int numPiso) {
+		this.numPiso = numPiso;
+	}
+
+	public String getNroDepartamento() {
+		return nroDepartamento;
+	}
+
+	public void setNroDepartamento(String nroDepartamento) {
+		this.nroDepartamento = nroDepartamento;
+	}
 }

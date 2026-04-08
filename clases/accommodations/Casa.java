@@ -19,4 +19,28 @@ public class Casa extends Alojamiento {
 	}
 	@Override
 	public  void consultarDatos(){}
+
+	public int getNumPisos() {
+		return numPisos;
+	}
+
+	public void setNumPisos(int numPisos) {
+		this.numPisos = numPisos;
+	}
+
+	public boolean isConPatio() {
+		return conPatio;
+	}
+
+	public void setConPatio(boolean conPatio) {
+		this.conPatio = conPatio;
+	}
+
+	public int getNroCocheras() {
+		return nroCocheras;
+	}
+
+	public void setNroCocheras(int nroCocheras) {
+		this.nroCocheras = nroCocheras;
+	}
 }
