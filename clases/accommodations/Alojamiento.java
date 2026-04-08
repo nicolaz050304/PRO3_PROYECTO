@@ -30,9 +30,7 @@ public abstract class Alojamiento implements IConsultable{
 	}
 
 	@Override
-	public void consultarDatos() {
-
-	}
+	public void consultarDatos() {}
 
 
 	public int getIdAlojamiento() {
