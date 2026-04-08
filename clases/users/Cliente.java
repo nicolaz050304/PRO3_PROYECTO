@@ -18,6 +18,11 @@ public class Cliente extends Usuario{
 		this.dni=dni;
 		this.reservas= new ArrayList<>();
 	}
+	@override
+	public void consultarDatos(){}
 	public void agendarReserva(Reserva reserva){}
-	
+	public void mostrarReservas(String estado){}//Me ayuda para filtro o sino muestro todas
+	public void consultarReserva(int codReserva){}
+	public void agregarCalificacion(int codReserva){}
+	public void agregarResenhia(int codResenhia){}
 }
