@@ -14,9 +14,6 @@ public class Resenha {
     private String comentario;
     private Date fechaPublicacion;
 
-    public Resenha() {
-    }
-
     public Resenha(int idResenha, Cliente autor, Alojamiento alojamiento, int calificacion, String comentario, Date fechaPublicacion) {
         this.idResenha = idResenha;
         this.autor = autor;
