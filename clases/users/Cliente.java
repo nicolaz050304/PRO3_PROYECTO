@@ -18,4 +18,7 @@ public class Cliente extends Usuario{
 		this.dni=dni;
 		this.reservas= new ArrayList<>();
 	}
+	public void agendarReserva(Reserva reserva){
+		
+	}
 }
