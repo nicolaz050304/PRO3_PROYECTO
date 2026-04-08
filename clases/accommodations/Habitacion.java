@@ -1,4 +1,4 @@
-package accomodations;
+package accommodations;
 
 import interfaceConsults.*;
 

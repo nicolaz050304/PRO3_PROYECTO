@@ -2,7 +2,7 @@ package users;
 import java.util.ArrayList;
 import java.util.List;
 
-import interfaceConsults.*;
+import interfaceConsults.IConsultable;
 import reservation.Reserva;
 
 public class Cliente extends Usuario{
@@ -10,15 +10,16 @@ public class Cliente extends Usuario{
 	private String dni;
 	private List<Reserva> reservas;//lista de reservas, aqui estan las pasadas y nuevas tambien xd
 	
-	public Cliente(String username,String correo,String contraseĆ±a,
-					String nombre,String telefono,String dni){
-		super(username,correo,contraseĆ±a);	
-		this.nombre=nombre;
+	public Cliente(String username,String correo,String contrasenha,
+					String nombreCompleto,String telefono,String dni){
+		super(username,nombreCompleto,correo,contrasenha);
+		this.nombreCompleto=nombreCompleto;
 		this.telefono=telefono;
 		this.dni=dni;
 		this.reservas= new ArrayList<>();
 	}
-	@override
+
+	@Override
 	public void consultarDatos(){}
 	
 	public void agendarReserva(Reserva reserva){}
