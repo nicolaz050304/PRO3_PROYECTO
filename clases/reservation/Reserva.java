@@ -1,27 +1,27 @@
-import package ENUM;
+import ENUM.*;
+import accomodations.*;
+import users.*;
 import interfaceConsults.*;
 import java.util.Date;
-package reservation;
-
 public class Reserva {
-	private int idReserva;
-	private Date fechaInicio;
-	private Date fechaFin;
-	private double montoTotal;
-	private Estado estado;
-	
-	private Alojamiento alojamientoReservado;
-	private Cliente cliente;
-	
-	public Reserva(int idReserva, Date fechaInicio, Date fechaFin, Estado estado,
-	Alojamiento alojamientoReservado, Cliente cliente) {
-		this.idReserva = idReserva;
-		this.fechaInicio = fechaInicio;
-		this.fechaFin = fechaFin;
-		this.estado = estado;
-		this.alojamientoReservado = alojamientoReservado;
-		this.cliente =cliente;
-		this.montoTotal = 0;
-	}
+    private int idReserva;
+    private Date fechaInicio;
+    private Date fechaFin;
+    private double montoTotal;
+    private EstadoDeReserva estado;
+
+    private Alojamiento alojamientoReservado;
+    private Cliente cliente;
+
+    public Reserva(int idReserva, Date fechaInicio, Date fechaFin, EstadoDeReserva estado,
+                   Alojamiento alojamientoReservado, Cliente cliente) {
+        this.idReserva = idReserva;
+        this.fechaInicio = fechaInicio;
+        this.fechaFin = fechaFin;
+        this.estado = estado;
+        this.alojamientoReservado = alojamientoReservado;
+        this.cliente =cliente;
+        this.montoTotal = 0;
+    }
 
 }

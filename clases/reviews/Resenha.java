@@ -1,7 +1,7 @@
 package reviews;
 
+import accomodations.Alojamiento;
 import users.Cliente;
-import accommodations.Alojamiento; 
 import java.util.Date;
 
 public class Resenha {

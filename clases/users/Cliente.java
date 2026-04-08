@@ -2,24 +2,23 @@ package users;
 import java.util.ArrayList;
 import java.util.List;
 
-import interfaceConsults.*;
-import reservation.Reserva;
+import Reserva;
 
 public class Cliente extends Usuario{
 	private String telefono;
 	private String dni;
 	private List<Reserva> reservas;//lista de reservas, aqui estan las pasadas y nuevas tambien xd
 	
-	public Cliente(String username,String correo,String contraseña,
+	public Cliente(String username,String correo,String contrasenhia,
 					String nombre,String telefono,String dni){
-		super(username,correo,contraseña);	
-		this.nombre=nombre;
+		super(username,nombre,correo,contrasenhia);
 		this.telefono=telefono;
 		this.dni=dni;
 		this.reservas= new ArrayList<>();
 	}
-	@override
+	@Override
 	public void consultarDatos(){}
+
 	public void agendarReserva(Reserva reserva){}
 	public void mostrarReservas(String estado){}//Me ayuda para filtro o sino muestro todas
 	public void consultarReserva(int codReserva){}
