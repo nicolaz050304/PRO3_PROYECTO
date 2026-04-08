@@ -14,7 +14,7 @@ public abstract class Usuario implements IConsultable {
 		this.nombreCompleto = nombreCompleto;
 		this.correo=correo;
 		this.contraseña=contraseña;
-		this.idUsuario = Math.toIntExact(++contadorId);
+		this.idUsuario = ++contadorId;
 		//el contador permite a que para cada usuario que se cree,
 		//se añada dicho valor actual al idUsuario y luego se aumente
 		// ejm: usuario 1 => idUsuario = ++contadorID = 1;
