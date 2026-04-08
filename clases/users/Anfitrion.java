@@ -1,7 +1,7 @@
 package users;
 
+import accomodations.Alojamiento;
 import interfaceConsults.*;
-import accommodations.Alojamiento;
 import java.util.List;
 import java.util.ArrayList;
 
@@ -13,12 +13,15 @@ public class Anfitrion extends Usuario {
 	private List<Alojamiento> alojamientos;
 	
 	
-	public Propietario(String username,String correo,String contraseña, String cuentaBancaria, double calificacionPromedio,
+	public Anfitrion(String username,String nombre,String correo,String contraseña, String cuentaBancaria, double calificacionPromedio,
 	List<Alojamiento> propiedades) {
-		super(username,correo,contraseña);
+		super(username,nombre,correo,contraseña);
 		this.calificacionPromedio = calificacionPromedio;
 		this.cuentaBancaria = cuentaBancaria;
-		this.propiedades = propiedades;
+		this.alojamientos = propiedades;
 	}
 	public void agregarAlojamiento(Alojamiento alojamiento){}
+
+	@Override
+	public void consultarDatos() {}
 }

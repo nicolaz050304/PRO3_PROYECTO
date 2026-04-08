@@ -1,8 +1,7 @@
 package users;
+import reservation.*;
 import java.util.ArrayList;
 import java.util.List;
-
-import Reserva;
 
 public class Cliente extends Usuario{
 	private String telefono;

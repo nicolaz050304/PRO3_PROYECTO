@@ -1,3 +1,4 @@
+package reservation;
 import ENUM.*;
 import accomodations.*;
 import users.*;
