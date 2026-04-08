@@ -1,6 +1,6 @@
 package reservation;
 import ENUM.*;
-import accomodations.*;
+import accommodations.Alojamiento;
 import users.*;
 import interfaceConsults.*;
 import java.util.Date;

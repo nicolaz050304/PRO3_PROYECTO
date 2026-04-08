@@ -1,6 +1,6 @@
 package reviews;
 
-import accomodations.*;
+import accommodations.*;
 import users.Cliente;
 import java.util.Date;
 

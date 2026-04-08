@@ -1,6 +1,6 @@
 package users;
 
-import accomodations.Alojamiento;
+import accommodations.Alojamiento;
 import interfaceConsults.*;
 import java.util.List;
 import java.util.ArrayList;

@@ -1,9 +1,9 @@
-package accomodations;
+package accommodations;
 
-import interfaceConsults.*;
+//import interfaceConsults.*;
 import users.Anfitrion;
 
-public abstract class Alojamiento implements IConsultable{
+public abstract class Alojamiento{
 	protected int idAlojamiento;
 	protected String nombre;
 	protected String descripcion;
