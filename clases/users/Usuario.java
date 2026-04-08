@@ -2,7 +2,7 @@ package users;
 import interfaceConsults.*;
 
 public abstract class Usuario implements IConsultable {
-	private static long contadorId = 0;
+	private static int contadorId = 0;
 	protected int idUsuario;
 	protected String username;
 	protected String nombreCompleto;
